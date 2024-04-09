@@ -1,0 +1,41 @@
+
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  padding: 8px;
+}
+
+.paginationWrapper {
+  display: flex; /* Make the wrapper a flex container */
+  flex: 1; /* Allow the wrapper to grow */
+  overflow: hidden; /* Hide overflow */
+}
+
+.pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.pageItem {
+  margin: 0 2px; /* Adjust margin as needed */
+}
+
+.button {
+  min-width: 36px;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+/* Adjust button size and spacing for smaller screens */
+@media (max-width: 600px) {
+  .button {
+      min-width: 30px; /* Adjust button width for smaller screens */
+      padding: 6px; /* Adjust button padding for smaller screens */
+  }
+
+  .pageItem {
+      margin: 0 1px; /* Adjust margin for smaller screens */
+  }
+}

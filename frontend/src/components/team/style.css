@@ -1,0 +1,38 @@
+.team-details {
+    padding: 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* Adjust width as needed for responsiveness */
+}
+
+.user-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info {
+    margin-top: 10px;
+}
+
+.user-info h4 {
+    margin-bottom: 5px;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+/* Add more styles as needed */
